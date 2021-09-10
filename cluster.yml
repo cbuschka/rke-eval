@@ -1,0 +1,12 @@
+nodes:
+  - address: dudu
+    user: conni
+    role:
+      - controlplane
+      - etcd
+      - worker
+    port: 22
+    docker_socket: /var/run/docker.sock
+ssh_key_path: ~/.ssh/conni-20090610.id_rsa
+ssh_agent_auth: true
+cluster_name: testcluster
